@@ -1,0 +1,122 @@
+===============
+Comment 1 
+===============
+
+this is a comment
+
+---
+
+(program
+  (comment))
+
+===============
+Comment 2 
+===============
+
+[-]
+this is a comment
+
+---
+
+(program
+  (comment)
+  (loop
+    (decrement))
+  (comment))
+
+===============
+Comment 2 
+===============
+[-] this is a comment
+---
+
+(program
+  (loop
+    (decrement))
+  (comment))
+
+===============
+Decrement
+===============
+-
+---
+(program
+  (decrement)) 
+
+===============
+Increment
+===============
++
+---
+(program
+  (increment)) 
+
+===============
+Input
+===============
+,
+---
+(program
+  (input)) 
+
+===============
+Move Right
+===============
+>
+---
+(program
+  (move_right)) 
+
+===============
+Move left
+===============
+<
+---
+(program
+  (move_left)) 
+
+===============
+Output
+===============
+.
+---
+(program
+  (output)) 
+
+===============
+Loop 1
+===============
+[-]
+---
+
+(program
+  (loop
+    (decrement)))
+
+===============
+Loop 2
+===============
+[+-]
+---
+
+(program
+  (loop
+    (increment)
+    (decrement)))
+
+===============
+Loop 3
+===============
++++++[+-]
+---
+
+(program
+  (increment)
+  (increment)
+  (increment)
+  (increment)
+  (increment)
+  (loop
+    (increment)
+    (decrement)))
+

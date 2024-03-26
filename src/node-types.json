@@ -1,0 +1,120 @@
+[
+  {
+    "type": "loop",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "decrement",
+          "named": true
+        },
+        {
+          "type": "increment",
+          "named": true
+        },
+        {
+          "type": "input",
+          "named": true
+        },
+        {
+          "type": "loop",
+          "named": true
+        },
+        {
+          "type": "move_left",
+          "named": true
+        },
+        {
+          "type": "move_right",
+          "named": true
+        },
+        {
+          "type": "output",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "program",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "decrement",
+          "named": true
+        },
+        {
+          "type": "increment",
+          "named": true
+        },
+        {
+          "type": "input",
+          "named": true
+        },
+        {
+          "type": "loop",
+          "named": true
+        },
+        {
+          "type": "move_left",
+          "named": true
+        },
+        {
+          "type": "move_right",
+          "named": true
+        },
+        {
+          "type": "output",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "decrement",
+    "named": true
+  },
+  {
+    "type": "increment",
+    "named": true
+  },
+  {
+    "type": "input",
+    "named": true
+  },
+  {
+    "type": "move_left",
+    "named": true
+  },
+  {
+    "type": "move_right",
+    "named": true
+  },
+  {
+    "type": "output",
+    "named": true
+  }
+]
